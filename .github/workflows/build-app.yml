@@ -43,6 +43,14 @@ name: Build app
 # The six targets are a matrix so one fails without taking the rest down;
 # `fail-fast` is off for the same reason.
 on:
+  # This fork adds a hand trigger, so a branch can build a bundle without
+  # cutting a release: Run workflow, choose the ref to build.
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: The ref to build, when it is not the one this runs on
+        type: string
+        default: ""
   workflow_call:
     inputs:
       ref:
