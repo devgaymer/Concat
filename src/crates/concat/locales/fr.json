@@ -528,6 +528,8 @@
   "settings.voices": "Voix",
   "settings.whatConnectionMustPresent": "Ce qu'une connexion doit présenter avant son premier appel. Laissé vide, le serveur en invente un à chaque démarrage et l'affiche ici.",
   "settings.whereEachModelCame": "D'où vient chaque modèle",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Couper à gauche de la tête de lecture",
   "shortcuts.deleteRight": "Couper à droite de la tête de lecture",
   "shortcuts.hint": "Cliquez sur une ligne, puis appuyez sur les touches auxquelles elle doit répondre. Échap annule, et une combinaison détenue par une autre action passe ici, laissant cette action sans touche jusqu'à ce que sa propre réinitialisation en remette une. Certaines combinaisons appartiennent à la fenêtre et ne peuvent pas être attribuées.",

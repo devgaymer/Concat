@@ -528,6 +528,8 @@
   "settings.voices": "Stemmen",
   "settings.whatConnectionMustPresent": "Wat een verbinding moet tonen voor de eerste aanroep. Leeg gelaten verzint de server er bij elke start een en toont die hier.",
   "settings.whereEachModelCame": "Waar elk model vandaan kwam",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Links van afspeelkop verwijderen",
   "shortcuts.deleteRight": "Rechts van afspeelkop verwijderen",
   "shortcuts.hint": "Klik op een rij en druk dan op de toetsen waarop die moet reageren. Escape annuleert, en een toetscombinatie die bij een andere actie hoort, verhuist hierheen; die actie heeft dan geen toets tot haar eigen Herstellen er weer een geeft. Een paar combinaties horen bij het venster en kunnen niet worden toegewezen.",

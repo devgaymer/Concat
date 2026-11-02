@@ -528,6 +528,8 @@
   "settings.voices": "কণ্ঠস্বর",
   "settings.whatConnectionMustPresent": "প্রথম কলের আগে একটি সংযোগকে কী দেখাতে হবে। খালি রাখলে, সার্ভার প্রতিবার চালুর সময় একটি বানিয়ে এখানে দেখায়।",
   "settings.whereEachModelCame": "প্রতিটি মডেল কোথা থেকে এসেছে",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "প্লেহেডের বাঁদিক মুছুন",
   "shortcuts.deleteRight": "প্লেহেডের ডানদিক মুছুন",
   "shortcuts.hint": "একটি সারিতে ক্লিক করুন, তারপর যে কীগুলোতে এটি সাড়া দেবে সেগুলো চাপুন। Escape বাতিল করে, আর অন্য কোনো অ্যাকশনের দখলে থাকা কী-সমন্বয় এখানে চলে আসে, ফলে সেই অ্যাকশনের নিজস্ব রিসেট আবার একটি কী না দেওয়া পর্যন্ত সেটির কোনো কী থাকে না। কয়েকটি কী-সমন্বয় উইন্ডোর নিজস্ব, সেগুলো বরাদ্দ করা যায় না।",

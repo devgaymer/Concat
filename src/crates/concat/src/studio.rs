@@ -12652,6 +12652,40 @@ impl Studio {
                     self.clip_action(&id, action);
                 }
             }
+            // Up / Down: the bounds of the selected clip - its start on
+            // Up, its end on Down. A clip the split cut keeps the bounds
+            // of the piece the selection holds, so the trecho answers.
+            // With nothing selected, the clip the playhead sits over,
+            // the way the split's fall-back does.
+            "clip-in" | "clip-out" => {
+                self.pause();
+                let to_out = action == "clip-out";
+                let clip = self
+                    .sole_selection()
+                    .and_then(|id| {
+                        self.timeline()
+                            .clips
+                            .iter()
+                            .find(|clip| clip.id == id)
+                            .cloned()
+                    })
+                    .or_else(|| {
+                        let at = f64::from(self.playhead);
+                        self.timeline()
+                            .clips
+                            .iter()
+                            .filter(|clip| clip.start <= at && at <= clip.start + clip.duration)
+                            .cloned()
+                            .last()
+                    });
+                let Some(clip) = clip else { return };
+                let at = if to_out {
+                    clip.start + clip.duration
+                } else {
+                    clip.start
+                };
+                self.seek(at as f32);
+            }
             // The tray's picture verbs. Mirror is the flip the H key does,
             // without the setting that gates the key: a button on the tray
             // is not a key someone might press by accident.

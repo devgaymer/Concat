@@ -172,13 +172,27 @@ pub const ACTIONS: &[Action] = &[
         defaults: &["right"],
     },
     // The cut before and after the playhead, on the keys Premiere and
-    // Resolve give them: clip to clip without the mouse.
+    // Resolve give them: clip to clip without the mouse. Shipped with
+    // no chord: Up and Down now go to the selected clip's own edges,
+    // and these stay rebindable in Settings › Shortcuts.
     Action {
         id: "prev-edit",
-        defaults: &["up"],
+        defaults: &[],
     },
     Action {
         id: "next-edit",
+        defaults: &[],
+    },
+    // The selected clip's own edges: Up to its start, Down to its end -
+    // the in and out a keyframer parks the playhead on. When the clip
+    // was split, the bounds are the cut piece the selection holds, so
+    // one recording cut into pieces still anchors its own frame.
+    Action {
+        id: "clip-in",
+        defaults: &["up"],
+    },
+    Action {
+        id: "clip-out",
         defaults: &["down"],
     },
 ];
@@ -227,6 +241,8 @@ pub fn name(id: &str) -> String {
         "step-forward" => i18n::t("shortcuts.stepForward"),
         "prev-edit" => i18n::t("shortcuts.prevEdit"),
         "next-edit" => i18n::t("shortcuts.nextEdit"),
+        "clip-in" => i18n::t("shortcuts.clipIn"),
+        "clip-out" => i18n::t("shortcuts.clipOut"),
         _ => String::new(),
     }
 }

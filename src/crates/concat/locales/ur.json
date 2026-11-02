@@ -528,6 +528,8 @@
   "settings.voices": "آوازیں",
   "settings.whatConnectionMustPresent": "پہلی کال سے پہلے کنکشن کو کیا پیش کرنا ہوگا۔ خالی چھوڑنے پر سرور ہر بار شروع ہوتے وقت ایک بنا لیتا ہے اور یہاں دکھاتا ہے۔",
   "settings.whereEachModelCame": "ہر ماڈل کہاں سے آیا",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "پلے ہیڈ کے بائیں حذف کریں",
   "shortcuts.deleteRight": "پلے ہیڈ کے دائیں حذف کریں",
   "shortcuts.hint": "کسی قطار پر کلک کریں، پھر وہ کلیدیں دبائیں جن پر اسے جواب دینا ہے۔ Escape منسوخ کرتا ہے، اور کسی دوسرے عمل کے پاس موجود کلیدی مجموعہ یہاں منتقل ہو جاتا ہے، جس سے وہ عمل تب تک بغیر کلید کے رہتا ہے جب تک اس کا اپنا ری سیٹ کوئی کلید واپس نہ دے۔ چند مجموعے ونڈو کے اپنے ہیں اور تفویض نہیں کیے جا سکتے۔",

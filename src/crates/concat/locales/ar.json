@@ -528,6 +528,8 @@
   "settings.voices": "الأصوات",
   "settings.whatConnectionMustPresent": "ما يجب أن يقدّمه الاتصال قبل أول طلب له. إذا تُرك فارغًا، يُنشئ الخادم واحدًا في كل مرة يبدأ فيها ويعرضه هنا.",
   "settings.whereEachModelCame": "مصدر كل نموذج",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "حذف ما يسار مؤشر التشغيل",
   "shortcuts.deleteRight": "حذف ما يمين مؤشر التشغيل",
   "shortcuts.hint": "انقر على صف، ثم اضغط المفاتيح التي يجب أن يستجيب لها. يُلغي Escape العملية، وأي تركيبة مفاتيح يملكها إجراء آخر تنتقل إلى هنا، فيبقى ذلك الإجراء بلا مفتاح حتى تعيد إليه إعادة التعيين الخاصة به مفتاحًا. بعض التركيبات مملوكة للنافذة ولا يمكن تعيينها.",

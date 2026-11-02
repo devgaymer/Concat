@@ -528,6 +528,8 @@
   "settings.voices": "Suara",
   "settings.whatConnectionMustPresent": "Apa yang harus ditunjukkan koneksi sebelum panggilan pertamanya. Jika dibiarkan kosong, server membuatnya sendiri setiap kali dimulai dan menampilkannya di sini.",
   "settings.whereEachModelCame": "Asal setiap model",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Hapus kiri penanda putar",
   "shortcuts.deleteRight": "Hapus kanan penanda putar",
   "shortcuts.hint": "Klik sebuah baris, lalu tekan tombol yang harus ditanggapinya. Escape membatalkan, dan kombinasi tombol yang dipegang tindakan lain akan pindah ke sini, sehingga tindakan itu tanpa tombol sampai Atur ulang miliknya sendiri mengembalikannya. Beberapa kombinasi milik jendela dan tidak bisa ditetapkan.",

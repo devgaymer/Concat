@@ -528,6 +528,8 @@
   "settings.voices": "Səslər",
   "settings.whatConnectionMustPresent": "Bağlantı ilk sorğusundan əvvəl nə təqdim etməlidir. Boş qalsa, server hər açılışda özü bir token yaradıb burada göstərir.",
   "settings.whereEachModelCame": "Hər model haradan gəlib",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Solu sil",
   "shortcuts.deleteRight": "Sağı sil",
   "shortcuts.hint": "Bir sətrə klikləyin, sonra onun cavab verməli olduğu düymələri basın. Escape ləğv edir. Başqa əmrin istifadə etdiyi düymə birləşməsi bura keçir və o əmr öz Sıfırla düyməsi ilə geri qaytarılana qədər düyməsiz qalır. Bəzi birləşmələr pəncərəyə məxsusdur və təyin oluna bilməz.",

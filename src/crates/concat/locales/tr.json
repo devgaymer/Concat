@@ -528,6 +528,8 @@
   "settings.voices": "Sesler",
   "settings.whatConnectionMustPresent": "Bir bağlantının ilk çağrısından önce sunması gereken şey. Boş bırakılırsa sunucu her başlatıldığında bir tane uydurur ve burada gösterir.",
   "settings.whereEachModelCame": "Her modelin geldiği yer",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Oynatma imlecinin solundan kes",
   "shortcuts.deleteRight": "Oynatma imlecinin sağından kes",
   "shortcuts.hint": "Bir satıra tıklayın, sonra yanıt vermesi gereken tuşlara basın. Esc iptal eder; başka bir eylemin tuttuğu kombinasyon buraya taşınır ve o eylem, kendi Sıfırlaması bir tuş geri getirene kadar tuşsuz kalır. Bazı kombinasyonlar pencereye aittir ve bağlanamaz.",

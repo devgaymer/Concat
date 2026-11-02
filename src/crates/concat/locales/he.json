@@ -528,6 +528,8 @@
   "settings.voices": "קולות",
   "settings.whatConnectionMustPresent": "מה שחיבור חייב להציג לפני הקריאה הראשונה שלו. אם נשאר ריק, השרת ממציא אחד בכל הפעלה ומציג אותו כאן.",
   "settings.whereEachModelCame": "מאיפה הגיע כל מודל",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "מחיקה משמאל לסמן ההפעלה",
   "shortcuts.deleteRight": "מחיקה מימין לסמן ההפעלה",
   "shortcuts.hint": "יש ללחוץ על שורה ואז על המקשים שהיא אמורה להגיב להם. Escape מבטל, וצירוף מקשים שפעולה אחרת מחזיקה עובר לכאן, והפעולה ההיא נשארת בלי מקש עד שהאיפוס שלה מחזיר לה אחד. כמה צירופים שייכים לחלון ואי אפשר להקצות אותם.",

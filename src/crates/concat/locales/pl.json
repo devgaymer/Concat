@@ -528,6 +528,8 @@
   "settings.voices": "Głosy",
   "settings.whatConnectionMustPresent": "Co połączenie musi przedstawić przed pierwszym wywołaniem. Jeśli pole jest puste, serwer tworzy token przy każdym uruchomieniu i pokazuje go tutaj.",
   "settings.whereEachModelCame": "Skąd pochodzi każdy model",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Usuń na lewo od głowicy",
   "shortcuts.deleteRight": "Usuń na prawo od głowicy",
   "shortcuts.hint": "Kliknij wiersz, a potem naciśnij klawisze, na które ma reagować. Escape anuluje, a kombinacja przypisana innej akcji przechodzi tutaj, zostawiając tamtą akcję bez klawisza, dopóki jej własne Resetuj go nie przywróci. Kilka kombinacji należy do okna i nie można ich przypisać.",

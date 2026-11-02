@@ -528,6 +528,8 @@
   "settings.voices": "Giọng nói",
   "settings.whatConnectionMustPresent": "Thông tin mà kết nối phải cung cấp trước lần gọi đầu tiên. Nếu để trống, máy chủ sẽ tự tạo mã mới mỗi khi khởi động và hiển thị tại đây.",
   "settings.whereEachModelCame": "Nguồn gốc của từng mô hình",
+  "shortcuts.clipIn": "Go to the selected clip's start",
+  "shortcuts.clipOut": "Go to the selected clip's end",
   "shortcuts.deleteLeft": "Xóa bên trái đầu phát",
   "shortcuts.deleteRight": "Xóa bên phải đầu phát",
   "shortcuts.hint": "Nhấp vào một hàng, rồi nhấn các phím mà hàng đó cần phản hồi. Escape để hủy; tổ hợp phím đang thuộc về thao tác khác sẽ chuyển sang đây, khiến thao tác đó không còn phím nào cho đến khi nút Đặt lại của chính nó trả lại một phím. Một số tổ hợp thuộc về cửa sổ và không thể gán.",
