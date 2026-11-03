@@ -1,0 +1,43 @@
+name: Ship bundle to release
+
+# A personal-fork convenience: take a Build app run's Linux bundle and
+# publish it on a release, so the files can be downloaded without signing
+# in. One input: the Build app run to take the artifact from.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: The Build app run whose Concat-linux-x86_64 artifact ships
+        type: string
+        required: true
+      tag:
+        description: The release tag to attach the files to
+        type: string
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  ship:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Download the linux bundle
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: Concat-linux-x86_64
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          files=( *.deb *.rpm *.AppImage *.pkg.tar.zst )
+          gh release create "${{ inputs.tag }}" "${files[@]}" --repo "$GITHUB_REPOSITORY" \
+            --title "Concat (clip-bounds keys)" \
+            --notes "Local feature build of jub0t/Concat: Up and Down go to the selected clip's own edges (keyframing anchors). Unofficial, unsigned build; see branch clip-bounds-keys."
+          ls -l
+          gh release list --repo "$GITHUB_REPOSITORY" --limit 3
